@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem que se adaptam sozinhas </title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>vamos usar a tag picure para que possa mudar a imagem de acordo com o tamanho da tela, por exemplo</p>
+    <p>dentro da tag picure, podemos adicionar  a tag source e escolher a opção media types e preencher com o tamanho desejado para quando a tela for do tamanho indicado, a imagem a ser carregada também sera do tamanho compatível</p>
+    <picture>
+        <source media="(max-width: 550px)" srcset="imagens/ovop.jpg" type="image/jpg">
+        <source media="(max-width: 750px)" srcset="imagens/ovom.jpg" type="image/jpg">
+        <source media="(max-width: 1050px )" srcset="imagens/ovog.jpg" type="image/jpg">
+        <img src="imagens/ovog.jpg" alt="imagem flexivel">
+     
+    </picture> <br>
+    <a href="../ex007/pagina2.html" rel="segunda pagina">Botando audio no html</a>
+</body>
+</html>

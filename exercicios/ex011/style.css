@@ -1,0 +1,23 @@
+body{
+    color:rgba(73, 23, 4, 0.747);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: linear-gradient( 90deg , black, pink);
+    text-align: justify;
+}
+h1{
+    color: rgba(107, 45, 223, 0.623);
+    text-align: center;
+    text-shadow:1px 5px 10px;
+    font-family: cursive;
+}
+p{
+    text-align: left;
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    border-radius: 10px;
+    margin: auto;
+    
+    
+}

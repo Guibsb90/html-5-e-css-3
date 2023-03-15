@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando o id com CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id= "principal" >Usando o id com CSS</h1>
+    <h1> id= </h1>
+    <p class="paragrafos">Para identificar um elemento você pode botar dentro da tag (no h1, por exemplo) um parametro id= e escrever algo para identifica-lo. Dai, no css, vc bota, por exmplo: h1#principal, por exemplo.</p>
+    <p>Em HTML é ID= mas no CSS usa-se # . Exemplo: no html(p id= "exemplo") e no css (p#exemplo { }) </p>
+    <h1>Class e ID</h1>
+    <p class="paragrafos">O ID é utilizado apenas para UMA tag. o Class, como o próprio nome ja diz, é uma classe que é composta de 2 ou mais unidades. No html é class e no CSS é . </p>
+    <p class="paragrafos">Podemos usar 2 classes dentro de um mesmo parametro class ,para poder aplicar mais de uma configuração no elemento. O class é ligado antes e o ID é ligado depois, portanto, o ID tem prioridade</p>
+    <h1>Pseudo Classes</h1>
+    <p class="paragrafos">As pseudo classes (:) tem que ser relacionadas a um elemento ou a uma classe. Podemos adicionar, por exemplo, a pseudo classe :hover e observar que mudanças acontecerão quando você passar o mouse por cima do elemento como está demonstado nos parágrafos desta página de testes. </p>
+    <div>
+        <p id="div"; class="paragrafos">Podemos escrever assim também: div > P (que significa um paragrafo que está dentro da div )</p>
+    </div>
+    <p class="paragrafos">Para deixar um elemento invisivel, podemos utilizar os parametros "opacity: 0;
+        transition: opacity 0.5s ease-in-out;" no CSS e em seguida utilizar duas pseudo classes: Hover e Focus. a Hover serve para acontecer algo quando você passar o mouse por cima do elemento e a Focus para focar em algum elemento. 
+        Exemplo: p#div:hover,
+        p#div:focus{
+              opacity: 1;</p>
+    <span id="link">
+    <a href="pagina2.html"><strong>Personalizando links</strong></a>
+    </span>
+</body>
+</html>
