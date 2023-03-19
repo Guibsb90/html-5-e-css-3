@@ -1,0 +1,8 @@
+body{
+    height: 100vh; /*esta unidade de medida é em porcentagem e o VH significa viewport , que é o tamanho da tela da página*/
+    border: 1px dashed black;
+    background-image: url(Midias/wallpaper002.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center center ; /* o primeiro parametro é a coluna (vertical) e o segundo é a linha (horizontal) */
+}
