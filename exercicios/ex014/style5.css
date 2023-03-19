@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    background-image: url(Midias/pattern003.png) ;
+}
+main{
+    background-color: aqua;
+    width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid pink;
+    border-radius: 15px;
+}
