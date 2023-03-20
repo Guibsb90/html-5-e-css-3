@@ -1,0 +1,17 @@
+#container{
+    position: relative;
+    height: 95vh;
+    padding: 10px;
+    background-color: pink;
+}
+#conteudo{
+    position: absolute; /*quando usamos position absolute, pode-se mecher em dois parametros: top e left. Pode-se usar números ou porcentagem.*/ 
+    height: 200px;
+    width: 400px;
+    background-color: violet;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*transformação de translação: mover o componente 50% pra esquerda e 50% pra cima. Desta forma, conseguimos centralizar a div*/
+    text-align: center;
+}
