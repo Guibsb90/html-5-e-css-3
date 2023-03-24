@@ -1,0 +1,13 @@
+table{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    border-collapse: collapse; /* esse comando junta as linhas da coluna para nao ter espaço entre elas*/
+}
+td{
+    border: 1px solid black;
+    text-align: center; /* para editar o alinhamento horizontalmente*/
+    vertical-align: top; /* para editar o alinhamento verticalmente*/
+
+    
+}
