@@ -8,3 +8,6 @@ thead , tfoot, .verde{
     background-color: rgb(91, 238, 91);
     color: beige;
 }
+div#container{
+    overflow-x: auto ; /**/    
+}
